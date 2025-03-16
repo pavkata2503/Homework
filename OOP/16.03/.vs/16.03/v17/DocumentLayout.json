@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pavka\\OneDrive\\Documents\\\u041F\u0440\u043E\u0433\u0440\u0430\u0432\u0438\u0440\u0430\u043D\u0435 C#\\ORM\\16.03\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{177E27CF-14FB-4B44-9961-B8DC85A243F0}|16.03.csproj|c:\\users\\pavka\\onedrive\\documents\\\u043F\u0440\u043E\u0433\u0440\u0430\u0432\u0438\u0440\u0430\u043D\u0435 c#\\orm\\16.03\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{177E27CF-14FB-4B44-9961-B8DC85A243F0}|16.03.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{177E27CF-14FB-4B44-9961-B8DC85A243F0}|16.03.csproj|c:\\users\\pavka\\onedrive\\documents\\\u043F\u0440\u043E\u0433\u0440\u0430\u0432\u0438\u0440\u0430\u043D\u0435 c#\\orm\\16.03\\specialcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{177E27CF-14FB-4B44-9961-B8DC85A243F0}|16.03.csproj|solutionrelative:specialcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{177E27CF-14FB-4B44-9961-B8DC85A243F0}|16.03.csproj|c:\\users\\pavka\\onedrive\\documents\\\u043F\u0440\u043E\u0433\u0440\u0430\u0432\u0438\u0440\u0430\u043D\u0435 c#\\orm\\16.03\\normalcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{177E27CF-14FB-4B44-9961-B8DC85A243F0}|16.03.csproj|solutionrelative:normalcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{177E27CF-14FB-4B44-9961-B8DC85A243F0}|16.03.csproj|c:\\users\\pavka\\onedrive\\documents\\\u043F\u0440\u043E\u0433\u0440\u0430\u0432\u0438\u0440\u0430\u043D\u0435 c#\\orm\\16.03\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{177E27CF-14FB-4B44-9961-B8DC85A243F0}|16.03.csproj|solutionrelative:customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{177E27CF-14FB-4B44-9961-B8DC85A243F0}|16.03.csproj|c:\\users\\pavka\\onedrive\\documents\\\u043F\u0440\u043E\u0433\u0440\u0430\u0432\u0438\u0440\u0430\u043D\u0435 c#\\orm\\16.03\\pair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{177E27CF-14FB-4B44-9961-B8DC85A243F0}|16.03.csproj|solutionrelative:pair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SpecialCustomer.cs",
+              "DocumentMoniker": "C:\\Users\\pavka\\OneDrive\\Documents\\\u041F\u0440\u043E\u0433\u0440\u0430\u0432\u0438\u0440\u0430\u043D\u0435 C#\\ORM\\16.03\\SpecialCustomer.cs",
+              "RelativeDocumentMoniker": "SpecialCustomer.cs",
+              "ToolTip": "C:\\Users\\pavka\\OneDrive\\Documents\\\u041F\u0440\u043E\u0433\u0440\u0430\u0432\u0438\u0440\u0430\u043D\u0435 C#\\ORM\\16.03\\SpecialCustomer.cs",
+              "RelativeToolTip": "SpecialCustomer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T08:42:09.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NormalCustomer.cs",
+              "DocumentMoniker": "C:\\Users\\pavka\\OneDrive\\Documents\\\u041F\u0440\u043E\u0433\u0440\u0430\u0432\u0438\u0440\u0430\u043D\u0435 C#\\ORM\\16.03\\NormalCustomer.cs",
+              "RelativeDocumentMoniker": "NormalCustomer.cs",
+              "ToolTip": "C:\\Users\\pavka\\OneDrive\\Documents\\\u041F\u0440\u043E\u0433\u0440\u0430\u0432\u0438\u0440\u0430\u043D\u0435 C#\\ORM\\16.03\\NormalCustomer.cs",
+              "RelativeToolTip": "NormalCustomer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T08:38:56.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\pavka\\OneDrive\\Documents\\\u041F\u0440\u043E\u0433\u0440\u0430\u0432\u0438\u0440\u0430\u043D\u0435 C#\\ORM\\16.03\\Customer.cs",
+              "RelativeDocumentMoniker": "Customer.cs",
+              "ToolTip": "C:\\Users\\pavka\\OneDrive\\Documents\\\u041F\u0440\u043E\u0433\u0440\u0430\u0432\u0438\u0440\u0430\u043D\u0435 C#\\ORM\\16.03\\Customer.cs",
+              "RelativeToolTip": "Customer.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T08:33:18.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Pair.cs",
+              "DocumentMoniker": "C:\\Users\\pavka\\OneDrive\\Documents\\\u041F\u0440\u043E\u0433\u0440\u0430\u0432\u0438\u0440\u0430\u043D\u0435 C#\\ORM\\16.03\\Pair.cs",
+              "RelativeDocumentMoniker": "Pair.cs",
+              "ToolTip": "C:\\Users\\pavka\\OneDrive\\Documents\\\u041F\u0440\u043E\u0433\u0440\u0430\u0432\u0438\u0440\u0430\u043D\u0435 C#\\ORM\\16.03\\Pair.cs",
+              "RelativeToolTip": "Pair.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAkwAoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T08:30:50.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pavka\\OneDrive\\Documents\\\u041F\u0440\u043E\u0433\u0440\u0430\u0432\u0438\u0440\u0430\u043D\u0435 C#\\ORM\\16.03\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\pavka\\OneDrive\\Documents\\\u041F\u0440\u043E\u0433\u0440\u0430\u0432\u0438\u0440\u0430\u043D\u0435 C#\\ORM\\16.03\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T06:55:56.258Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\ORM\16.03\bin\Debug\net8.0\16.03.exe
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\ORM\16.03\bin\Debug\net8.0\16.03.deps.json
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\ORM\16.03\bin\Debug\net8.0\16.03.runtimeconfig.json
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\ORM\16.03\bin\Debug\net8.0\16.03.dll
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\ORM\16.03\bin\Debug\net8.0\16.03.pdb
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\ORM\16.03\obj\Debug\net8.0\16.03.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\ORM\16.03\obj\Debug\net8.0\16.03.AssemblyInfoInputs.cache
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\ORM\16.03\obj\Debug\net8.0\16.03.AssemblyInfo.cs
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\ORM\16.03\obj\Debug\net8.0\16.03.csproj.CoreCompileInputs.cache
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\ORM\16.03\obj\Debug\net8.0\16.03.dll
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\ORM\16.03\obj\Debug\net8.0\refint\16.03.dll
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\ORM\16.03\obj\Debug\net8.0\16.03.pdb
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\ORM\16.03\obj\Debug\net8.0\16.03.genruntimeconfig.cache
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\ORM\16.03\obj\Debug\net8.0\ref\16.03.dll

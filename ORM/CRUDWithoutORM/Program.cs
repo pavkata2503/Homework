@@ -1,4 +1,5 @@
-﻿using _11._03.OOP;
+﻿using _11._03.OOP.Controllers;
+using _11._03.OOP.Data;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 namespace Program
@@ -60,26 +61,5 @@ namespace Program
 
     }
 
-    public class Warehouse : DbContext
-    {
-        public DbSet<Buyer> Buyers { get; set; }
-        public DbSet<Product> Products { get; set; }
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            if (!optionsBuilder.IsConfigured)
-            {
-                optionsBuilder.UseSqlServer("Server =LAPTOP-POJ3LVD0;Database=Warehouse;Integrated Security=True;TrustServerCertificate=True;Pooling=False");
-            }
-        }
-
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            // Дефиниране на релацията 1 към много
-            modelBuilder.Entity<Buyer>()
-                .HasOne(b => b.Product)
-                .WithMany(p => p.Buyers)
-                .HasForeignKey(b => b.ProductId);
-        }
-    }
+    
 }

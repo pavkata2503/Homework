@@ -1,4 +1,5 @@
-﻿using Microsoft.Data.SqlClient;
+﻿using _11._03.OOP.Data;
+using Microsoft.Data.SqlClient;
 using Program;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using static NHibernate.Engine.Query.CallableParser;
 
-namespace _11._03.OOP
+namespace _11._03.OOP.Controllers
 {
     class BuyersData
     {

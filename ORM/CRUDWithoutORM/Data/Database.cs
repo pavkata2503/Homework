@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _11._03.OOP
+namespace _11._03.OOP.Data
 {
     class Database
     {

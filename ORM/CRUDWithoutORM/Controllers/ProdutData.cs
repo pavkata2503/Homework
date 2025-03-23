@@ -9,8 +9,9 @@ using System.Threading.Tasks;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 using NHibernate.Mapping;
 using Unipluss.Sign.ExternalContract.Entities;
+using _11._03.OOP.Data;
 
-namespace _11._03.OOP
+namespace _11._03.OOP.Controllers
 {
     class ProdutData
     {

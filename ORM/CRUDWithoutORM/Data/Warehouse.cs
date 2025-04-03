@@ -16,7 +16,7 @@ namespace _11._03.OOP.Data
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Server =LAPTOP-POJ3LVD0;Database=Warehouse;Integrated Security=True;TrustServerCertificate=True;Pooling=False");
+                optionsBuilder.UseSqlServer("Server =LAPTOP-POJ3LVD0;Database=Warehousecheck;Integrated Security=True;TrustServerCertificate=True;Pooling=False");
             }
         }
 

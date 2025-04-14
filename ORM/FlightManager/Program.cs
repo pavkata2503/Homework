@@ -1,14 +1,10 @@
-﻿using Fluent.Infrastructure.FluentModel;
-
-namespace FlightManager
+﻿namespace FlightManager
 {
-    public class Program
+    internal class Program
     {
         static void Main(string[] args)
         {
-            using ApplicationDbContext dbContext = new ApplicationDbContext();
-
-            dbContext.Database.Migrate();
+            Console.WriteLine("Hello, World!");
         }
     }
 }

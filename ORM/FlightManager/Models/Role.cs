@@ -1,15 +1,17 @@
-﻿using FlightManager.Models.BaseModels;
+﻿using FlightManager.BaseModels;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace FlightManager.Models
 {
-    public class Role:BaseModel
+    public class Role : BaseModel
     {
+        [MaxLength(20)]
         public string RoleName { get; set; }
-        public ICollection<Crew> Crew { get; set; }=new List<Crew>();
+        public ICollection<Crew> Crews { get; set; } = new List<Crew>();
     }
 }

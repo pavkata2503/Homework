@@ -1,0 +1,6 @@
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\ORM\FlightManager\obj\Debug\net9.0\FlightManager.csproj.AssemblyReference.cache
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\ORM\FlightManager\obj\Debug\net9.0\FlightManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\ORM\FlightManager\obj\Debug\net9.0\FlightManager.AssemblyInfoInputs.cache
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\ORM\FlightManager\obj\Debug\net9.0\FlightManager.AssemblyInfo.cs
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\ORM\FlightManager\obj\Debug\net9.0\FlightManager.csproj.CoreCompileInputs.cache
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\ORM\FlightManager\obj\Debug\net9.0\FlightManager.sourcelink.json

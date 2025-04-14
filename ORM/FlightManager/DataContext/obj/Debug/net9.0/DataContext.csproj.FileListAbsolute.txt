@@ -1,0 +1,6 @@
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\ORM\FlightManager\DataContext\obj\Debug\net9.0\DataContext.csproj.AssemblyReference.cache
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\ORM\FlightManager\DataContext\obj\Debug\net9.0\DataContext.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\ORM\FlightManager\DataContext\obj\Debug\net9.0\DataContext.AssemblyInfoInputs.cache
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\ORM\FlightManager\DataContext\obj\Debug\net9.0\DataContext.AssemblyInfo.cs
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\ORM\FlightManager\DataContext\obj\Debug\net9.0\DataContext.csproj.CoreCompileInputs.cache
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\ORM\FlightManager\DataContext\obj\Debug\net9.0\DataContext.sourcelink.json

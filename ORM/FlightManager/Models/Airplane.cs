@@ -1,4 +1,4 @@
-﻿using FlightManager.Models.BaseModels;
+﻿using FlightManager.BaseModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,10 +7,12 @@ using System.Threading.Tasks;
 
 namespace FlightManager.Models
 {
-    public class Airplane:BaseModel
+    public class Airplane : BaseModel
     {
-        public ICollection<Airport> Airports { get; set; } = new List<Airport>();
         public ushort SeatsCount { get; set; }
+        public ICollection<Airport> Airports { get; set; } = new List<Airport>();
         public ICollection<Flight> Flights { get; set; } = new List<Flight>();
+
+
     }
 }

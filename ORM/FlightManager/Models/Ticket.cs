@@ -1,4 +1,5 @@
-﻿using FlightManager.Models.BaseModels;
+﻿using FlightManager.BaseModels;
+using MathNet.Numerics;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -9,21 +10,26 @@ using System.Threading.Tasks;
 
 namespace FlightManager.Models
 {
-    public class Ticket:BaseModel
+    public class Ticket : BaseModel
     {
-        public int Id { get; set; }
-        [Precision(9,2)]
+
+        [Precision(9, 3)]
         public decimal TicketPrice { get; set; }
         [MaxLength(50)]
         public string Type { get; set; }
         public ushort SeatNumber { get; set; }
-        public int? PayrollId { get; set; }
-        public PayRoll? Payroll { get; set; }
-        public int FlightId { get; set; }
-        public Flight Flight { get; set; }= null!;
-        public int PassangerId { get; set; }
-        public Passanger Passanger { get; set; } = null!;
+        //public DateTimeOffset FlightDate { get; set; }
 
+
+        public int? FlightId { get; set; }
+        public Flight? Flight { get; set; } = null!;
+
+        // Many tickets belong to one passenger
+        public int? PassengerId { get; set; }
+        public Passenger? Passenger { get; set; } = null!;
+
+        // One ticket has one payroll
+        public Payroll? Payroll { get; set; }
 
     }
 }

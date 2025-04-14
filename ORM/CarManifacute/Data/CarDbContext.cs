@@ -15,7 +15,7 @@ namespace CarManifacute.Data
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseSqlServer("Server=LAPTOP-POJ3LVD0;Initial Catalog=AirCompanySystem;Integrated Security=True;TrustServerCertificate=True;Pooling=False");
+            optionsBuilder.UseSqlServer("Server=LAPTOP-POJ3LVD0;Initial Catalog=arManifacture;Integrated Security=True;TrustServerCertificate=True;Pooling=False");
         }
 
         public string CompareCars(int carId1, int carId2)
@@ -89,6 +89,8 @@ namespace CarManifacute.Data
             {
                 return "Двата автомобила са равностойни!";
             }
+
+
         }
 
         public void DemonstrateCarComparison(int carId1, int carId2)

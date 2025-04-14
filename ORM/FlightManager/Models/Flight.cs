@@ -1,4 +1,4 @@
-﻿using FlightManager.Models.BaseModels;
+﻿using FlightManager.BaseModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,15 +7,16 @@ using System.Threading.Tasks;
 
 namespace FlightManager.Models
 {
-    public class Flight:BaseModel
+    public class Flight : BaseModel
     {
         public int FlightDuration { get; set; }
         public DateTimeOffset FlightDate { get; set; }
         public ushort PassengerCount { get; set; }
-        public ICollection<Crew> Crews { get; set; }
-        public ICollection<FlightStatusChanges> FlightStatusChanges { get; set; }
-        public ICollection<Passanger> Passangers { get; set; }
-        public int AirPlaneId { get; set; }
-        public Airplane AirPlane { get; set; }=new Airplane();
+
+        public ICollection<Crew> Crews { get; set; } = new List<Crew>();
+        public ICollection<FlightStatusChange> FlightStatusChanges { get; set; } = new List<FlightStatusChange>();
+        public ICollection<Passenger> Passengers { get; set; } = new List<Passenger>();
+        public int? AirplaneId { get; set; }
+        public Airplane? Airplane { get; set; }
     }
 }

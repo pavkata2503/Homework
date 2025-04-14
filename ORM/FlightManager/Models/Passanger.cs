@@ -1,18 +1,18 @@
-﻿using FlightManager.Models.BaseModels;
+﻿using FlightManager.BaseModels;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
+using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace FlightManager.Models
 {
-    public class Passanger:BaseModel
+    public class Passenger : BaseModel
     {
-        public int Id { get; set; }
+        [MaxLength(150)]
         public string Name { get; set; }
-        public int TicketId { get; set; }
-        public Ticket Ticket { get; set; } = null!;
-
+        public ICollection<Ticket> Tickets { get; set; } = new List<Ticket>();
     }
 }

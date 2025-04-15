@@ -138,48 +138,109 @@ public class Game
         }
 
     }
-
+    int countblue = 0;
+    int countred = 0;
     public void StartGame()
     {
-        int countblue = 0;
-        int countred = 0;
-        int blueindex = 0;
-        int redindex = 0;
-        for (int i = 0; i < 10; i++)
+        int blueindex = 9;
+        int redindex = 9;
+        while(blueindex != 0 && redindex!=0 ) 
         {
             if (blue.PlayerBallons[blueindex].Type == "Black")
             {
-                if (red.PlayerBallons[redindex].Type != "Black" && red.PlayerArrows[redindex].Accuracy >= red.PlayerBallons[redindex].BallonSize)
+                blue.PlayerArrows.RemoveAt(blueindex);
+                blue.PlayerBallons.RemoveAt(blueindex);
+                blueindex--;
+
+                if (red.PlayerArrows[redindex].Accuracy >= red.PlayerBallons[redindex].BallonSize)
                 {
                     countred++;
                     red.Score += red.PlayerBallons[redindex].BallonPoints;
-                    redindex++;
                 }
+
+                red.PlayerArrows.RemoveAt(redindex);
+                red.PlayerBallons.RemoveAt(redindex);
+                redindex--;
+                if (red.PlayerArrows[redindex].Accuracy >= red.PlayerBallons[redindex].BallonSize)
+                {
+                    countred++;
+                    red.Score += red.PlayerBallons[redindex].BallonPoints;
+                }
+
+                red.PlayerArrows.RemoveAt(redindex);
+                red.PlayerBallons.RemoveAt(redindex);
+                redindex--;
+                blue.PlayerArrows.RemoveAt(blueindex);
+                blue.PlayerBallons.RemoveAt(blueindex);
+                blueindex--;
             }
-            if (blue.PlayerBallons[blueindex].Type != "Black" &&  blue.PlayerArrows[blueindex].Accuracy >= blue.PlayerBallons[blueindex].BallonSize)
+            else if (red.PlayerBallons[redindex].Type == "Black")
             {
-                countblue++;
-                blue.Score += blue.PlayerBallons[blueindex].BallonPoints;
-                blueindex ++;
+                red.PlayerArrows.RemoveAt(redindex);
+                red.PlayerBallons.RemoveAt(redindex);
+                redindex--;
+
+                if (blue.PlayerArrows[blueindex].Accuracy >= blue.PlayerBallons[blueindex].BallonSize)
+                {
+                    countblue++;
+                    blue.Score += blue.PlayerBallons[blueindex].BallonPoints;
+                }
+
+                blue.PlayerArrows.RemoveAt(blueindex);
+                blue.PlayerBallons.RemoveAt(blueindex);
+                blueindex--;
+                if (blue.PlayerArrows[blueindex].Accuracy >= blue.PlayerBallons[blueindex].BallonSize)
+                {
+                    countblue++;
+                    blue.Score += blue.PlayerBallons[blueindex].BallonPoints;
+                }
+
+                blue.PlayerArrows.RemoveAt(blueindex);
+                blue.PlayerBallons.RemoveAt(blueindex);
+                blueindex--;
+                red.PlayerArrows.RemoveAt(redindex);
+                red.PlayerBallons.RemoveAt(redindex);
+                redindex--;
             }
-            if (red.PlayerBallons[redindex].Type != "Black" && red.PlayerArrows[redindex].Accuracy >= red.PlayerBallons[redindex].BallonSize)
+            else
             {
-                countred++;
-                red.Score += red.PlayerBallons[redindex].BallonPoints;
-                redindex++;
+                if (blue.PlayerArrows[blueindex].Accuracy >= blue.PlayerBallons[blueindex].BallonSize)
+                {
+                    countblue++;
+                    blue.Score += blue.PlayerBallons[blueindex].BallonPoints;
+                }
+                blueindex--;
+                blue.PlayerArrows.RemoveAt(blueindex);
+                blue.PlayerBallons.RemoveAt(blueindex);
+                if (red.PlayerArrows[redindex].Accuracy >= red.PlayerBallons[redindex].BallonSize)
+                {
+                    countred++;
+                    red.Score += red.PlayerBallons[redindex].BallonPoints;
+                }
+                red.PlayerArrows.RemoveAt(redindex);
+                red.PlayerBallons.RemoveAt(redindex);
+                redindex--;
             }
+            
         }
-        if (countblue > countred)
+        if (blue.Score > red.Score)
         {
-            Console.WriteLine($"Blue Team Wins {countblue}");
+            Console.WriteLine($"Blue Team Wins {blue.Score}");
         }
-        else if (countblue < countred)
+        else if (red.Score > red.Score)
         {
-            Console.WriteLine($"Red Team Wins {countred}");
+            Console.WriteLine($"Red Team Wins {red.Score}");
         }
         else
         {
             Console.WriteLine("Draw");
         }
+    }
+    public void DisplayScore()
+    {
+        Console.WriteLine($"Red Team Pop Ballons: {countred}");
+        Console.WriteLine($"Red Team Score: {red.Score}");
+        Console.WriteLine($"Blue Team Pop Ballons: {countblue}");
+        Console.WriteLine($"Blue Team Score: {blue.Score}");
     }
 }

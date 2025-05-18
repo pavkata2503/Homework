@@ -1,0 +1,16 @@
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\ORM\IMBD_Movies\bin\Debug\net9.0\IMBD_Movies.exe
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\ORM\IMBD_Movies\bin\Debug\net9.0\imdb_top_2000_movies.csv
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\ORM\IMBD_Movies\bin\Debug\net9.0\IMBD_Movies.deps.json
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\ORM\IMBD_Movies\bin\Debug\net9.0\IMBD_Movies.runtimeconfig.json
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\ORM\IMBD_Movies\bin\Debug\net9.0\IMBD_Movies.dll
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\ORM\IMBD_Movies\bin\Debug\net9.0\IMBD_Movies.pdb
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\ORM\IMBD_Movies\obj\Debug\net9.0\IMBD_Movies.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\ORM\IMBD_Movies\obj\Debug\net9.0\IMBD_Movies.AssemblyInfoInputs.cache
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\ORM\IMBD_Movies\obj\Debug\net9.0\IMBD_Movies.AssemblyInfo.cs
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\ORM\IMBD_Movies\obj\Debug\net9.0\IMBD_Movies.csproj.CoreCompileInputs.cache
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\ORM\IMBD_Movies\obj\Debug\net9.0\IMBD_Movies.sourcelink.json
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\ORM\IMBD_Movies\obj\Debug\net9.0\IMBD_Movies.dll
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\ORM\IMBD_Movies\obj\Debug\net9.0\refint\IMBD_Movies.dll
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\ORM\IMBD_Movies\obj\Debug\net9.0\IMBD_Movies.pdb
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\ORM\IMBD_Movies\obj\Debug\net9.0\IMBD_Movies.genruntimeconfig.cache
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\ORM\IMBD_Movies\obj\Debug\net9.0\ref\IMBD_Movies.dll

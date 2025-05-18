@@ -1,0 +1,15 @@
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\OOP\WeatherStation\bin\Debug\net9.0\WeatherStation.exe
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\OOP\WeatherStation\bin\Debug\net9.0\WeatherStation.deps.json
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\OOP\WeatherStation\bin\Debug\net9.0\WeatherStation.runtimeconfig.json
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\OOP\WeatherStation\bin\Debug\net9.0\WeatherStation.dll
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\OOP\WeatherStation\bin\Debug\net9.0\WeatherStation.pdb
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\OOP\WeatherStation\obj\Debug\net9.0\WeatherStation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\OOP\WeatherStation\obj\Debug\net9.0\WeatherStation.AssemblyInfoInputs.cache
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\OOP\WeatherStation\obj\Debug\net9.0\WeatherStation.AssemblyInfo.cs
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\OOP\WeatherStation\obj\Debug\net9.0\WeatherStation.csproj.CoreCompileInputs.cache
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\OOP\WeatherStation\obj\Debug\net9.0\WeatherStation.sourcelink.json
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\OOP\WeatherStation\obj\Debug\net9.0\WeatherStation.dll
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\OOP\WeatherStation\obj\Debug\net9.0\refint\WeatherStation.dll
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\OOP\WeatherStation\obj\Debug\net9.0\WeatherStation.pdb
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\OOP\WeatherStation\obj\Debug\net9.0\WeatherStation.genruntimeconfig.cache
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\OOP\WeatherStation\obj\Debug\net9.0\ref\WeatherStation.dll

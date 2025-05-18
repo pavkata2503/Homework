@@ -1,0 +1,15 @@
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\OOP\DrawingShape\bin\Debug\net9.0\DrawingShape.exe
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\OOP\DrawingShape\bin\Debug\net9.0\DrawingShape.deps.json
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\OOP\DrawingShape\bin\Debug\net9.0\DrawingShape.runtimeconfig.json
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\OOP\DrawingShape\bin\Debug\net9.0\DrawingShape.dll
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\OOP\DrawingShape\bin\Debug\net9.0\DrawingShape.pdb
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\OOP\DrawingShape\obj\Debug\net9.0\DrawingShape.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\OOP\DrawingShape\obj\Debug\net9.0\DrawingShape.AssemblyInfoInputs.cache
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\OOP\DrawingShape\obj\Debug\net9.0\DrawingShape.AssemblyInfo.cs
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\OOP\DrawingShape\obj\Debug\net9.0\DrawingShape.csproj.CoreCompileInputs.cache
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\OOP\DrawingShape\obj\Debug\net9.0\DrawingShape.sourcelink.json
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\OOP\DrawingShape\obj\Debug\net9.0\DrawingShape.dll
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\OOP\DrawingShape\obj\Debug\net9.0\refint\DrawingShape.dll
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\OOP\DrawingShape\obj\Debug\net9.0\DrawingShape.pdb
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\OOP\DrawingShape\obj\Debug\net9.0\DrawingShape.genruntimeconfig.cache
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\OOP\DrawingShape\obj\Debug\net9.0\ref\DrawingShape.dll

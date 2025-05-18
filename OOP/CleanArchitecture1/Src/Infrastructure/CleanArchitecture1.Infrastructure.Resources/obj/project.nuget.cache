@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "BdHcOMzKaG4=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Src\\Infrastructure\\CleanArchitecture1.Infrastructure.Resources\\CleanArchitecture1.Infrastructure.Resources.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pavka\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
+    "C:\\Users\\pavka\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.11.0\\fluentvalidation.dependencyinjectionextensions.11.11.0.nupkg.sha512",
+    "C:\\Users\\pavka\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
+    "C:\\Users\\pavka\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\pavka\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

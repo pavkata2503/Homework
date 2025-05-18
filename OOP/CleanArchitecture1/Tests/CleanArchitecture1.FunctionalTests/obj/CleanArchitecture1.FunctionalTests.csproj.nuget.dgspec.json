@@ -1,0 +1,710 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Tests\\CleanArchitecture1.FunctionalTests\\CleanArchitecture1.FunctionalTests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Src\\Core\\CleanArchitecture1.Application\\CleanArchitecture1.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Src\\Core\\CleanArchitecture1.Application\\CleanArchitecture1.Application.csproj",
+        "projectName": "CleanArchitecture1.Application",
+        "projectPath": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Src\\Core\\CleanArchitecture1.Application\\CleanArchitecture1.Application.csproj",
+        "packagesPath": "C:\\Users\\pavka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Src\\Core\\CleanArchitecture1.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pavka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Src\\Core\\CleanArchitecture1.Domain\\CleanArchitecture1.Domain.csproj": {
+                "projectPath": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Src\\Core\\CleanArchitecture1.Domain\\CleanArchitecture1.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.11.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Src\\Core\\CleanArchitecture1.Domain\\CleanArchitecture1.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Src\\Core\\CleanArchitecture1.Domain\\CleanArchitecture1.Domain.csproj",
+        "projectName": "CleanArchitecture1.Domain",
+        "projectPath": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Src\\Core\\CleanArchitecture1.Domain\\CleanArchitecture1.Domain.csproj",
+        "packagesPath": "C:\\Users\\pavka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Src\\Core\\CleanArchitecture1.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pavka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Src\\Infrastructure\\CleanArchitecture1.Infrastructure.FileManager\\CleanArchitecture1.Infrastructure.FileManager.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Src\\Infrastructure\\CleanArchitecture1.Infrastructure.FileManager\\CleanArchitecture1.Infrastructure.FileManager.csproj",
+        "projectName": "CleanArchitecture1.Infrastructure.FileManager",
+        "projectPath": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Src\\Infrastructure\\CleanArchitecture1.Infrastructure.FileManager\\CleanArchitecture1.Infrastructure.FileManager.csproj",
+        "packagesPath": "C:\\Users\\pavka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Src\\Infrastructure\\CleanArchitecture1.Infrastructure.FileManager\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pavka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Src\\Core\\CleanArchitecture1.Application\\CleanArchitecture1.Application.csproj": {
+                "projectPath": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Src\\Core\\CleanArchitecture1.Application\\CleanArchitecture1.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Src\\Infrastructure\\CleanArchitecture1.Infrastructure.Identity\\CleanArchitecture1.Infrastructure.Identity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Src\\Infrastructure\\CleanArchitecture1.Infrastructure.Identity\\CleanArchitecture1.Infrastructure.Identity.csproj",
+        "projectName": "CleanArchitecture1.Infrastructure.Identity",
+        "projectPath": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Src\\Infrastructure\\CleanArchitecture1.Infrastructure.Identity\\CleanArchitecture1.Infrastructure.Identity.csproj",
+        "packagesPath": "C:\\Users\\pavka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Src\\Infrastructure\\CleanArchitecture1.Infrastructure.Identity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pavka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Src\\Core\\CleanArchitecture1.Application\\CleanArchitecture1.Application.csproj": {
+                "projectPath": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Src\\Core\\CleanArchitecture1.Application\\CleanArchitecture1.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Src\\Infrastructure\\CleanArchitecture1.Infrastructure.Persistence\\CleanArchitecture1.Infrastructure.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Src\\Infrastructure\\CleanArchitecture1.Infrastructure.Persistence\\CleanArchitecture1.Infrastructure.Persistence.csproj",
+        "projectName": "CleanArchitecture1.Infrastructure.Persistence",
+        "projectPath": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Src\\Infrastructure\\CleanArchitecture1.Infrastructure.Persistence\\CleanArchitecture1.Infrastructure.Persistence.csproj",
+        "packagesPath": "C:\\Users\\pavka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Src\\Infrastructure\\CleanArchitecture1.Infrastructure.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pavka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Src\\Core\\CleanArchitecture1.Application\\CleanArchitecture1.Application.csproj": {
+                "projectPath": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Src\\Core\\CleanArchitecture1.Application\\CleanArchitecture1.Application.csproj"
+              },
+              "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Src\\Core\\CleanArchitecture1.Domain\\CleanArchitecture1.Domain.csproj": {
+                "projectPath": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Src\\Core\\CleanArchitecture1.Domain\\CleanArchitecture1.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Src\\Infrastructure\\CleanArchitecture1.Infrastructure.Resources\\CleanArchitecture1.Infrastructure.Resources.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Src\\Infrastructure\\CleanArchitecture1.Infrastructure.Resources\\CleanArchitecture1.Infrastructure.Resources.csproj",
+        "projectName": "CleanArchitecture1.Infrastructure.Resources",
+        "projectPath": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Src\\Infrastructure\\CleanArchitecture1.Infrastructure.Resources\\CleanArchitecture1.Infrastructure.Resources.csproj",
+        "packagesPath": "C:\\Users\\pavka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Src\\Infrastructure\\CleanArchitecture1.Infrastructure.Resources\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pavka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Src\\Core\\CleanArchitecture1.Application\\CleanArchitecture1.Application.csproj": {
+                "projectPath": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Src\\Core\\CleanArchitecture1.Application\\CleanArchitecture1.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Src\\Presentation\\CleanArchitecture1.WebApi\\CleanArchitecture1.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Src\\Presentation\\CleanArchitecture1.WebApi\\CleanArchitecture1.WebApi.csproj",
+        "projectName": "CleanArchitecture1.WebApi",
+        "projectPath": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Src\\Presentation\\CleanArchitecture1.WebApi\\CleanArchitecture1.WebApi.csproj",
+        "packagesPath": "C:\\Users\\pavka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Src\\Presentation\\CleanArchitecture1.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pavka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Src\\Core\\CleanArchitecture1.Application\\CleanArchitecture1.Application.csproj": {
+                "projectPath": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Src\\Core\\CleanArchitecture1.Application\\CleanArchitecture1.Application.csproj"
+              },
+              "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Src\\Infrastructure\\CleanArchitecture1.Infrastructure.FileManager\\CleanArchitecture1.Infrastructure.FileManager.csproj": {
+                "projectPath": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Src\\Infrastructure\\CleanArchitecture1.Infrastructure.FileManager\\CleanArchitecture1.Infrastructure.FileManager.csproj"
+              },
+              "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Src\\Infrastructure\\CleanArchitecture1.Infrastructure.Identity\\CleanArchitecture1.Infrastructure.Identity.csproj": {
+                "projectPath": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Src\\Infrastructure\\CleanArchitecture1.Infrastructure.Identity\\CleanArchitecture1.Infrastructure.Identity.csproj"
+              },
+              "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Src\\Infrastructure\\CleanArchitecture1.Infrastructure.Persistence\\CleanArchitecture1.Infrastructure.Persistence.csproj": {
+                "projectPath": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Src\\Infrastructure\\CleanArchitecture1.Infrastructure.Persistence\\CleanArchitecture1.Infrastructure.Persistence.csproj"
+              },
+              "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Src\\Infrastructure\\CleanArchitecture1.Infrastructure.Resources\\CleanArchitecture1.Infrastructure.Resources.csproj": {
+                "projectPath": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Src\\Infrastructure\\CleanArchitecture1.Infrastructure.Resources\\CleanArchitecture1.Infrastructure.Resources.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Asp.Versioning.Mvc.ApiExplorer": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Serilog.Enrichers.ClientInfo": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Serilog.Enrichers.Environment": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Serilog.Exceptions": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            },
+            "Serilog.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Serilog.Sinks.Debug": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Tests\\CleanArchitecture1.FunctionalTests\\CleanArchitecture1.FunctionalTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Tests\\CleanArchitecture1.FunctionalTests\\CleanArchitecture1.FunctionalTests.csproj",
+        "projectName": "CleanArchitecture1.FunctionalTests",
+        "projectPath": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Tests\\CleanArchitecture1.FunctionalTests\\CleanArchitecture1.FunctionalTests.csproj",
+        "packagesPath": "C:\\Users\\pavka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Tests\\CleanArchitecture1.FunctionalTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pavka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Src\\Presentation\\CleanArchitecture1.WebApi\\CleanArchitecture1.WebApi.csproj": {
+                "projectPath": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\OOP\\CleanArchitecture1\\Src\\Presentation\\CleanArchitecture1.WebApi\\CleanArchitecture1.WebApi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.13.0, )"
+            },
+            "Shouldly": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

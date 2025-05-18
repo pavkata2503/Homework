@@ -1,6 +1,6 @@
 ﻿namespace Pizza_Service
 {
-    public class PizzaFactory
+    public class PizzaMaker
     {
         public static Pizza CreatePizza(string type, int quantity, string size, string date)
         {

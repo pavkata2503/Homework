@@ -9,7 +9,7 @@ namespace Pizza_Service
     {
         static void Main(string[] args)
         {
-            CashRegister cashRegister = new CashRegister();
+            Register Register = new Register();
 
             while (true)
             {
@@ -30,9 +30,9 @@ namespace Pizza_Service
                     string date = parts[4];
 
 
-                    Pizza pizza = PizzaFactory.CreatePizza(pizzaType, quantity, size, date);
+                    Pizza pizza = PizzaMaker.CreatePizza(pizzaType, quantity, size, date);
                     pizza.Prepare();
-                    cashRegister.AddOrder(pizza);
+                    Register.AddOrder(pizza);
                 }
                 else
                 {
@@ -40,7 +40,7 @@ namespace Pizza_Service
                 }
             }
 
-            cashRegister.DailyReport();
+            Register.DailyReport();
         }
     }
 }

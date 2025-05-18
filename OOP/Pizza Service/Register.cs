@@ -1,6 +1,6 @@
 ﻿namespace Pizza_Service
 {
-    public class CashRegister
+    public class Register
     {
         private readonly Dictionary<string, List<Pizza>> _dailySales = new Dictionary<string, List<Pizza>>();
 

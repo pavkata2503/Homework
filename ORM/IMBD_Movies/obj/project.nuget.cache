@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "eaRod6nTLj0=",
+  "dgSpecHash": "eRrnl04i+nw=",
   "success": true,
   "projectFilePath": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\ORM\\IMBD_Movies\\IMBD_Movies.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\pavka\\.nuget\\packages\\csvhelper\\33.0.1\\csvhelper.33.0.1.nupkg.sha512",
     "C:\\Users\\pavka\\.nuget\\packages\\system.text.encoding.codepages\\9.0.0\\system.text.encoding.codepages.9.0.0.nupkg.sha512"
   ],
   "logs": []

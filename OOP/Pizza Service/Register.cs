@@ -2,7 +2,7 @@
 {
     public class Register
     {
-        private readonly Dictionary<string, List<Pizza>> _dailySales = new Dictionary<string, List<Pizza>>();
+        private Dictionary<string, List<Pizza>> _dailySales = new Dictionary<string, List<Pizza>>();
 
         public void AddOrder(Pizza pizza)
         {

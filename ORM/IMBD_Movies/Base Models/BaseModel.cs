@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IMBD_Movies.Params
+namespace IMBD_Movies.Base_Models
 {
-    internal class GlobalParams
+    public class BaseModel
     {
+        public int Id { get; set; }
     }
 }

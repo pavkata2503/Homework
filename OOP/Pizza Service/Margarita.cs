@@ -2,7 +2,7 @@
 {
     public class Margarita : Pizza
     {
-        private readonly Dictionary<string, decimal> _prices = new()
+        private Dictionary<string, decimal> _prices = new()
         {
             { "small", 5 },
             { "medium", 10 },

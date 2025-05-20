@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Text;
 using System.Linq;
+using IMBD_Movies.CsvRead;
 
 namespace IMBD_Movies
 {
@@ -8,15 +9,12 @@ namespace IMBD_Movies
     {
         static void Main(string[] args)
         {
-            // Регистриране на доставчика за кодиране
-            Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
-            
-            Console.OutputEncoding = Encoding.UTF8;
-            Console.InputEncoding = Encoding.UTF8;
-            
-            MovieReader reader = new MovieReader();
-            reader.GetData();
-            reader.DisplayMovies();
+            CsvFileReader reader = new CsvFileReader();
+            var list = reader.GetData();
+            foreach (var item in list)
+            {
+                Console.WriteLine($"{item.Cast}    {item.MovieName}");
+            }
 
         }
     }

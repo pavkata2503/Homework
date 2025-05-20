@@ -6,7 +6,7 @@
         {
             string lowerSize = size.ToLower();
             string[] validSizes = { "small", "medium", "large" };
-
+            string lowertype = type.ToLower();
             if (!validSizes.Contains(lowerSize))
             {
                 throw new ArgumentException("Invalid pizza size");
@@ -14,13 +14,13 @@
 
             Pizza pizza;
 
-            switch (type)
+            switch (lowertype)
             {
-                case "Margarita":
+                case "margarita":
                     pizza = new Margarita();
                     break;
 
-                case "Boss'Pizza":
+                case "boss'pizza":
                     pizza = new BossPizza();
                     break;
 

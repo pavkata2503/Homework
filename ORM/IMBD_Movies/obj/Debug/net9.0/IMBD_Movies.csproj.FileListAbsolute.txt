@@ -14,3 +14,6 @@ C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\ORM\IMBD_
 C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\ORM\IMBD_Movies\obj\Debug\net9.0\IMBD_Movies.pdb
 C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\ORM\IMBD_Movies\obj\Debug\net9.0\IMBD_Movies.genruntimeconfig.cache
 C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\ORM\IMBD_Movies\obj\Debug\net9.0\ref\IMBD_Movies.dll
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\ORM\IMBD_Movies\obj\Debug\net9.0\IMBD_Movies.csproj.AssemblyReference.cache
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\ORM\IMBD_Movies\bin\Debug\net9.0\CsvHelper.dll
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\Homework\ORM\IMBD_Movies\obj\Debug\net9.0\IMBD_Mov.982DA43B.Up2Date

@@ -22,7 +22,7 @@ namespace Pizza_Service
 
                 string[] parts = input.Split(' ');
 
-                if (parts.Length == 5 && parts[0] == "Pizza")
+                if (parts.Length == 5 && parts[0].ToLower() == "pizza")
                 {
                     string pizzaType = parts[1];
                     int quantity = int.Parse(parts[2]);

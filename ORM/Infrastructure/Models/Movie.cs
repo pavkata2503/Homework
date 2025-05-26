@@ -19,11 +19,11 @@ namespace IMBD_Movies.Models
         public double Gross { get; set; }
 
         // Navigation properties
-        public int DirectorId { get; set; }
-        public Director Director { get; set; }
+        public int? DirectorId { get; set; }
+        public Director? Director { get; set; }
 
-        public ICollection<MovieGenre> MovieGenres { get; set; }
-        public ICollection<MovieActor> MovieActors { get; set; }
+        public ICollection<MovieGenre>? MovieGenres { get; set; }
+        public ICollection<MovieActor>? MovieActors { get; set; }
     }
 
 }

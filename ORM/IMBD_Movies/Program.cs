@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 using Infrastructure.Data;
 using IMBD_Movies.CsvRead;
 using IMBD_Movies.Models;
+using Infrastructure.Seed;
 
 namespace IMBD_Movies
 {
@@ -12,16 +13,9 @@ namespace IMBD_Movies
     {
         static void Main(string[] args)
         {
-            var movies = CsvFileReader.GetData();
-            foreach (var movie in movies)
-            {
-                Console.WriteLine($"Movie Name: {movie.MovieName}");
-                Console.WriteLine($"Director: {movie.Director}");
-                Console.WriteLine($"Genre: {movie.Genre}");
-                Console.WriteLine($"Release Year: {movie.ReleaseYear}");
-                Console.WriteLine($"Rating: {movie.IMDBRating}");
-                Console.WriteLine();
-            }
+            using var context = new ApplicationDbContext();
+            var seeder = new DataSeeder(context);
+            seeder.SeedDatabase();
         }
     }
 

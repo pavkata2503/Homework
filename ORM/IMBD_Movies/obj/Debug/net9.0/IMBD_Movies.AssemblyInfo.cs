@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IMBD_Movies")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f365547230fb2d4cb113960d2bd344c9838c625c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a07baa7e0ba7cb52d13c181b724f76678f9cb0d")]
 [assembly: System.Reflection.AssemblyProductAttribute("IMBD_Movies")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IMBD_Movies")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

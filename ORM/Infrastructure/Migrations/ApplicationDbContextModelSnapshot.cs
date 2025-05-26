@@ -80,7 +80,7 @@ namespace Infrastructure.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("DirectorId")
+                    b.Property<int?>("DirectorId")
                         .HasColumnType("int");
 
                     b.Property<int>("Duration")
@@ -165,9 +165,7 @@ namespace Infrastructure.Migrations
                 {
                     b.HasOne("IMBD_Movies.Models.Director", "Director")
                         .WithMany("Movies")
-                        .HasForeignKey("DirectorId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("DirectorId");
 
                     b.Navigation("Director");
                 });

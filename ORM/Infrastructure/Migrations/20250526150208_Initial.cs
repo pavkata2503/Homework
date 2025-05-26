@@ -61,7 +61,7 @@ namespace Infrastructure.Migrations
                     Metascore = table.Column<double>(type: "float", nullable: true),
                     Votes = table.Column<double>(type: "float", nullable: false),
                     Gross = table.Column<double>(type: "float", nullable: false),
-                    DirectorId = table.Column<int>(type: "int", nullable: false),
+                    DirectorId = table.Column<int>(type: "int", nullable: true),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
@@ -71,8 +71,7 @@ namespace Infrastructure.Migrations
                         name: "FK_Movies_Directors_DirectorId",
                         column: x => x.DirectorId,
                         principalTable: "Directors",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "Id");
                 });
 
             migrationBuilder.CreateTable(

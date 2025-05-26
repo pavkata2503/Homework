@@ -12,7 +12,7 @@ namespace IMBD_Movies.Models
     public class Genre:BaseModel
     {
 
-        public ICollection<MovieGenre> MovieGenres { get; set; }
+        public ICollection<MovieGenre>? MovieGenres { get; set; }
     }
 
 }

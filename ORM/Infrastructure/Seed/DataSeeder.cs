@@ -14,77 +14,37 @@ using System.Threading.Tasks;
 
 namespace Infrastructure.Seed
 {
-    internal class DataSeeder
+    public class DataSeeder
     {
         private readonly ApplicationDbContext _context;
 
-
-        private List<Model> moviesList = CsvFileReader.GetData();
-        public void Seed()
+        public DataSeeder(ApplicationDbContext context)
         {
-            //Seed the database with movies
-            foreach (var item in moviesList)
+            _context = context;
+        }
+
+
+
+        public void SeedDatabase()
+        {
+            var moviesList = CsvFileReader.GetData();
+            var movieList = new List<Movie>();
+            foreach (var movie in moviesList)
             {
-                var dorectorList = new Director
+                var newmovie =new Movie
                 {
-                    Name = item.Director,
-                    Movies = new List<Movie>()
+                    Name = movie.MovieName,
+                    ReleaseYear = movie.ReleaseYear,
+                    Duration = movie.Duration,
+                    ImdbRating = movie.IMDBRating,
+                    Metascore = movie.Metascore,
+                    Votes = movie.Votes,
+                    Gross = movie.Gross
                 };
-                var genreList = new Genre
-                {
-                    Name = item.Genre.FirstOrDefault().ToString(),
-                    MovieGenres = new List<MovieGenre>()
-                };
-                var actorList = new Cast
-                {
-                    Name = item.Cast.FirstOrDefault().ToString(),
-                    MovieActors = new List<MovieActor>()
-                };
-                var movieGenre = new MovieGenre
-                {
-                    Genre = genreList,
-                    Movie = new Movie()
-                };
-                var movieActor = new MovieActor
-                {
-                    Cast = actorList,
-                    Movie = new Movie()
-                };
-                var movieActorList = new MovieActor
-                {
-                    Movie = new Movie(),
-                    Cast = new Cast()
-                };
-                var movieGenreList = new MovieGenre
-                {
-                    Movie = new Movie(),
-                    Genre = new Genre()
-                };
-                var movie = new Movie
-                {
-                    Name = item.MovieName,
-                    ReleaseYear = item.ReleaseYear,
-                    Duration = item.Duration,
-                    ImdbRating = item.IMDBRating,
-                    Metascore = item.Metascore,
-                    Votes = item.Votes,
-                    Gross = item.Gross,
-                    DirectorId = dorectorList.Id,
-                    MovieGenres = new List<MovieGenre>(),
-                    MovieActors = new List<MovieActor>()
-                };
-
-
-                _context.Movies.Add(movie);
-                _context.Directors.Add(dorectorList);
-                _context.Genres.Add(genreList);
-                _context.Casts.Add(actorList);
-                _context.MovieActors.Add(movieActor);
-                _context.MovieGenres.Add(movieGenreList);
-
+                movieList.Add(newmovie);
             }
+            _context.Movies.AddRange(movieList);
             _context.SaveChanges();
-
         }
     }
 }

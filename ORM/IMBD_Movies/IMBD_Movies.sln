@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35919.96 d17.13
+VisualStudioVersion = 17.13.35919.96
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMBD_Movies", "IMBD_Movies.csproj", "{3C045F33-E74C-46CD-81FD-9815DFC31D3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "..\Infrastructure\Infrastructure.csproj", "{B0E0449E-4991-4F4E-8DEE-80B80B6EB9B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "..\Services\Services.csproj", "{72A68475-3D3D-4B8C-B213-6B787233CFB7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{3C045F33-E74C-46CD-81FD-9815DFC31D3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C045F33-E74C-46CD-81FD-9815DFC31D3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C045F33-E74C-46CD-81FD-9815DFC31D3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0E0449E-4991-4F4E-8DEE-80B80B6EB9B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0E0449E-4991-4F4E-8DEE-80B80B6EB9B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0E0449E-4991-4F4E-8DEE-80B80B6EB9B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0E0449E-4991-4F4E-8DEE-80B80B6EB9B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72A68475-3D3D-4B8C-B213-6B787233CFB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72A68475-3D3D-4B8C-B213-6B787233CFB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72A68475-3D3D-4B8C-B213-6B787233CFB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72A68475-3D3D-4B8C-B213-6B787233CFB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

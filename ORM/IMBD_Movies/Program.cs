@@ -1,7 +1,10 @@
 ﻿using System;
 using System.Text;
 using System.Linq;
+using Microsoft.EntityFrameworkCore.Migrations;
+using Infrastructure.Data;
 using IMBD_Movies.CsvRead;
+using IMBD_Movies.Models;
 
 namespace IMBD_Movies
 {
@@ -9,13 +12,18 @@ namespace IMBD_Movies
     {
         static void Main(string[] args)
         {
-            CsvFileReader reader = new CsvFileReader();
-            var list = reader.GetData();
-            foreach (var item in list)
+            var movies = CsvFileReader.GetData();
+            foreach (var movie in movies)
             {
-                Console.WriteLine($"{item.Cast}    {item.MovieName}");
+                Console.WriteLine($"Movie Name: {movie.MovieName}");
+                Console.WriteLine($"Director: {movie.Director}");
+                Console.WriteLine($"Genre: {movie.Genre}");
+                Console.WriteLine($"Release Year: {movie.ReleaseYear}");
+                Console.WriteLine($"Rating: {movie.IMDBRating}");
+                Console.WriteLine();
             }
-
         }
     }
+
 }
+

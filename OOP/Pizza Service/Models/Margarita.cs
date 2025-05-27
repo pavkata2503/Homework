@@ -1,6 +1,6 @@
-﻿namespace Pizza_Service
+﻿namespace Pizza_Service.Models
 {
-    public class Margarita : Pizza
+    internal class Margarita : Pizza
     {
         private Dictionary<string, decimal> _prices = new()
         {

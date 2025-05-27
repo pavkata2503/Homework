@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\pavka\\OneDrive\\Documents\\\u041F\u0440\u043E\u0433\u0440\u0430\u0432\u0438\u0440\u0430\u043D\u0435 C#\\Homework\\OOP\\Pizza Service\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7D4BC59C-D02F-4DBF-93F3-9F3715C3B529}|Pizza Service.csproj|c:\\users\\pavka\\onedrive\\documents\\\u043F\u0440\u043E\u0433\u0440\u0430\u0432\u0438\u0440\u0430\u043D\u0435 c#\\homework\\oop\\pizza service\\margarita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D4BC59C-D02F-4DBF-93F3-9F3715C3B529}|Pizza Service.csproj|solutionrelative:margarita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7D4BC59C-D02F-4DBF-93F3-9F3715C3B529}|Pizza Service.csproj|c:\\users\\pavka\\onedrive\\documents\\\u043F\u0440\u043E\u0433\u0440\u0430\u0432\u0438\u0440\u0430\u043D\u0435 c#\\homework\\oop\\pizza service\\models\\margarita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D4BC59C-D02F-4DBF-93F3-9F3715C3B529}|Pizza Service.csproj|solutionrelative:models\\margarita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D4BC59C-D02F-4DBF-93F3-9F3715C3B529}|Pizza Service.csproj|c:\\users\\pavka\\onedrive\\documents\\\u043F\u0440\u043E\u0433\u0440\u0430\u0432\u0438\u0440\u0430\u043D\u0435 c#\\homework\\oop\\pizza service\\pizzamaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D4BC59C-D02F-4DBF-93F3-9F3715C3B529}|Pizza Service.csproj|solutionrelative:pizzamaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D4BC59C-D02F-4DBF-93F3-9F3715C3B529}|Pizza Service.csproj|c:\\users\\pavka\\onedrive\\documents\\\u043F\u0440\u043E\u0433\u0440\u0430\u0432\u0438\u0440\u0430\u043D\u0435 c#\\homework\\oop\\pizza service\\pizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D4BC59C-D02F-4DBF-93F3-9F3715C3B529}|Pizza Service.csproj|solutionrelative:pizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7D4BC59C-D02F-4DBF-93F3-9F3715C3B529}|Pizza Service.csproj|c:\\users\\pavka\\onedrive\\documents\\\u043F\u0440\u043E\u0433\u0440\u0430\u0432\u0438\u0440\u0430\u043D\u0435 c#\\homework\\oop\\pizza service\\models\\pizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D4BC59C-D02F-4DBF-93F3-9F3715C3B529}|Pizza Service.csproj|solutionrelative:models\\pizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7D4BC59C-D02F-4DBF-93F3-9F3715C3B529}|Pizza Service.csproj|c:\\users\\pavka\\onedrive\\documents\\\u043F\u0440\u043E\u0433\u0440\u0430\u0432\u0438\u0440\u0430\u043D\u0435 c#\\homework\\oop\\pizza service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D4BC59C-D02F-4DBF-93F3-9F3715C3B529}|Pizza Service.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D4BC59C-D02F-4DBF-93F3-9F3715C3B529}|Pizza Service.csproj|c:\\users\\pavka\\onedrive\\documents\\\u043F\u0440\u043E\u0433\u0440\u0430\u0432\u0438\u0440\u0430\u043D\u0435 c#\\homework\\oop\\pizza service\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D4BC59C-D02F-4DBF-93F3-9F3715C3B529}|Pizza Service.csproj|solutionrelative:register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7D4BC59C-D02F-4DBF-93F3-9F3715C3B529}|Pizza Service.csproj|c:\\users\\pavka\\onedrive\\documents\\\u043F\u0440\u043E\u0433\u0440\u0430\u0432\u0438\u0440\u0430\u043D\u0435 c#\\homework\\oop\\pizza service\\servies\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D4BC59C-D02F-4DBF-93F3-9F3715C3B529}|Pizza Service.csproj|solutionrelative:servies\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D4BC59C-D02F-4DBF-93F3-9F3715C3B529}|Pizza Service.csproj|c:\\users\\pavka\\onedrive\\documents\\\u043F\u0440\u043E\u0433\u0440\u0430\u0432\u0438\u0440\u0430\u043D\u0435 c#\\homework\\oop\\pizza service\\bosspizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D4BC59C-D02F-4DBF-93F3-9F3715C3B529}|Pizza Service.csproj|solutionrelative:bosspizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7D4BC59C-D02F-4DBF-93F3-9F3715C3B529}|Pizza Service.csproj|c:\\users\\pavka\\onedrive\\documents\\\u043F\u0440\u043E\u0433\u0440\u0430\u0432\u0438\u0440\u0430\u043D\u0435 c#\\homework\\oop\\pizza service\\servies\\pizzamaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D4BC59C-D02F-4DBF-93F3-9F3715C3B529}|Pizza Service.csproj|solutionrelative:servies\\pizzamaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D4BC59C-D02F-4DBF-93F3-9F3715C3B529}|Pizza Service.csproj|c:\\users\\pavka\\onedrive\\documents\\\u043F\u0440\u043E\u0433\u0440\u0430\u0432\u0438\u0440\u0430\u043D\u0435 c#\\homework\\oop\\pizza service\\models\\bosspizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D4BC59C-D02F-4DBF-93F3-9F3715C3B529}|Pizza Service.csproj|solutionrelative:models\\bosspizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D4BC59C-D02F-4DBF-93F3-9F3715C3B529}|Pizza Service.csproj|c:\\users\\pavka\\onedrive\\documents\\\u043F\u0440\u043E\u0433\u0440\u0430\u0432\u0438\u0440\u0430\u043D\u0435 c#\\homework\\oop\\pizza service\\interfaces\\ipizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D4BC59C-D02F-4DBF-93F3-9F3715C3B529}|Pizza Service.csproj|solutionrelative:interfaces\\ipizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,13 +54,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
+              "Title": "IPizza.cs",
+              "DocumentMoniker": "C:\\Users\\pavka\\OneDrive\\Documents\\\u041F\u0440\u043E\u0433\u0440\u0430\u0432\u0438\u0440\u0430\u043D\u0435 C#\\Homework\\OOP\\Pizza Service\\Interfaces\\IPizza.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IPizza.cs",
+              "ToolTip": "C:\\Users\\pavka\\OneDrive\\Documents\\\u041F\u0440\u043E\u0433\u0440\u0430\u0432\u0438\u0440\u0430\u043D\u0435 C#\\Homework\\OOP\\Pizza Service\\Interfaces\\IPizza.cs",
+              "RelativeToolTip": "Interfaces\\IPizza.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T21:45:27.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Register.cs",
-              "DocumentMoniker": "C:\\Users\\pavka\\OneDrive\\Documents\\\u041F\u0440\u043E\u0433\u0440\u0430\u0432\u0438\u0440\u0430\u043D\u0435 C#\\Homework\\OOP\\Pizza Service\\Register.cs",
-              "RelativeDocumentMoniker": "Register.cs",
-              "ToolTip": "C:\\Users\\pavka\\OneDrive\\Documents\\\u041F\u0440\u043E\u0433\u0440\u0430\u0432\u0438\u0440\u0430\u043D\u0435 C#\\Homework\\OOP\\Pizza Service\\Register.cs",
-              "RelativeToolTip": "Register.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAgAAAA6AAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\pavka\\OneDrive\\Documents\\\u041F\u0440\u043E\u0433\u0440\u0430\u0432\u0438\u0440\u0430\u043D\u0435 C#\\Homework\\OOP\\Pizza Service\\Servies\\Register.cs",
+              "RelativeDocumentMoniker": "Servies\\Register.cs",
+              "ToolTip": "C:\\Users\\pavka\\OneDrive\\Documents\\\u041F\u0440\u043E\u0433\u0440\u0430\u0432\u0438\u0440\u0430\u043D\u0435 C#\\Homework\\OOP\\Pizza Service\\Servies\\Register.cs",
+              "RelativeToolTip": "Servies\\Register.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAYAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-18T13:06:45.904Z",
               "EditorCaption": ""
@@ -65,11 +81,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Margarita.cs",
-              "DocumentMoniker": "C:\\Users\\pavka\\OneDrive\\Documents\\\u041F\u0440\u043E\u0433\u0440\u0430\u0432\u0438\u0440\u0430\u043D\u0435 C#\\Homework\\OOP\\Pizza Service\\Margarita.cs",
-              "RelativeDocumentMoniker": "Margarita.cs",
-              "ToolTip": "C:\\Users\\pavka\\OneDrive\\Documents\\\u041F\u0440\u043E\u0433\u0440\u0430\u0432\u0438\u0440\u0430\u043D\u0435 C#\\Homework\\OOP\\Pizza Service\\Margarita.cs",
-              "RelativeToolTip": "Margarita.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBMAAAArAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\pavka\\OneDrive\\Documents\\\u041F\u0440\u043E\u0433\u0440\u0430\u0432\u0438\u0440\u0430\u043D\u0435 C#\\Homework\\OOP\\Pizza Service\\Models\\Margarita.cs",
+              "RelativeDocumentMoniker": "Models\\Margarita.cs",
+              "ToolTip": "C:\\Users\\pavka\\OneDrive\\Documents\\\u041F\u0440\u043E\u0433\u0440\u0430\u0432\u0438\u0440\u0430\u043D\u0435 C#\\Homework\\OOP\\Pizza Service\\Models\\Margarita.cs*",
+              "RelativeToolTip": "Models\\Margarita.cs*",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBAAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-17T09:01:08.138Z",
               "EditorCaption": ""
@@ -78,50 +94,50 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "BossPizza.cs",
-              "DocumentMoniker": "C:\\Users\\pavka\\OneDrive\\Documents\\\u041F\u0440\u043E\u0433\u0440\u0430\u0432\u0438\u0440\u0430\u043D\u0435 C#\\Homework\\OOP\\Pizza Service\\BossPizza.cs",
-              "RelativeDocumentMoniker": "BossPizza.cs",
-              "ToolTip": "C:\\Users\\pavka\\OneDrive\\Documents\\\u041F\u0440\u043E\u0433\u0440\u0430\u0432\u0438\u0440\u0430\u043D\u0435 C#\\Homework\\OOP\\Pizza Service\\BossPizza.cs",
-              "RelativeToolTip": "BossPizza.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAPAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\pavka\\OneDrive\\Documents\\\u041F\u0440\u043E\u0433\u0440\u0430\u0432\u0438\u0440\u0430\u043D\u0435 C#\\Homework\\OOP\\Pizza Service\\Models\\BossPizza.cs",
+              "RelativeDocumentMoniker": "Models\\BossPizza.cs",
+              "ToolTip": "C:\\Users\\pavka\\OneDrive\\Documents\\\u041F\u0440\u043E\u0433\u0440\u0430\u0432\u0438\u0440\u0430\u043D\u0435 C#\\Homework\\OOP\\Pizza Service\\Models\\BossPizza.cs",
+              "RelativeToolTip": "Models\\BossPizza.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-17T08:57:37.697Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Pizza.cs",
-              "DocumentMoniker": "C:\\Users\\pavka\\OneDrive\\Documents\\\u041F\u0440\u043E\u0433\u0440\u0430\u0432\u0438\u0440\u0430\u043D\u0435 C#\\Homework\\OOP\\Pizza Service\\Pizza.cs",
-              "RelativeDocumentMoniker": "Pizza.cs",
-              "ToolTip": "C:\\Users\\pavka\\OneDrive\\Documents\\\u041F\u0440\u043E\u0433\u0440\u0430\u0432\u0438\u0440\u0430\u043D\u0435 C#\\Homework\\OOP\\Pizza Service\\Pizza.cs",
-              "RelativeToolTip": "Pizza.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAA7wBIAAAAbAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\pavka\\OneDrive\\Documents\\\u041F\u0440\u043E\u0433\u0440\u0430\u0432\u0438\u0440\u0430\u043D\u0435 C#\\Homework\\OOP\\Pizza Service\\Models\\Pizza.cs",
+              "RelativeDocumentMoniker": "Models\\Pizza.cs",
+              "ToolTip": "C:\\Users\\pavka\\OneDrive\\Documents\\\u041F\u0440\u043E\u0433\u0440\u0430\u0432\u0438\u0440\u0430\u043D\u0435 C#\\Homework\\OOP\\Pizza Service\\Models\\Pizza.cs*",
+              "RelativeToolTip": "Models\\Pizza.cs*",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBMAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-17T08:57:30.73Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "PizzaMaker.cs",
-              "DocumentMoniker": "C:\\Users\\pavka\\OneDrive\\Documents\\\u041F\u0440\u043E\u0433\u0440\u0430\u0432\u0438\u0440\u0430\u043D\u0435 C#\\Homework\\OOP\\Pizza Service\\PizzaMaker.cs",
-              "RelativeDocumentMoniker": "PizzaMaker.cs",
-              "ToolTip": "C:\\Users\\pavka\\OneDrive\\Documents\\\u041F\u0440\u043E\u0433\u0440\u0430\u0432\u0438\u0440\u0430\u043D\u0435 C#\\Homework\\OOP\\Pizza Service\\PizzaMaker.cs",
-              "RelativeToolTip": "PizzaMaker.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBQAAAAaAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\pavka\\OneDrive\\Documents\\\u041F\u0440\u043E\u0433\u0440\u0430\u0432\u0438\u0440\u0430\u043D\u0435 C#\\Homework\\OOP\\Pizza Service\\Servies\\PizzaMaker.cs",
+              "RelativeDocumentMoniker": "Servies\\PizzaMaker.cs",
+              "ToolTip": "C:\\Users\\pavka\\OneDrive\\Documents\\\u041F\u0440\u043E\u0433\u0440\u0430\u0432\u0438\u0440\u0430\u043D\u0435 C#\\Homework\\OOP\\Pizza Service\\Servies\\PizzaMaker.cs",
+              "RelativeToolTip": "Servies\\PizzaMaker.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwA0AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-12T16:13:22.272Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\pavka\\OneDrive\\Documents\\\u041F\u0440\u043E\u0433\u0440\u0430\u0432\u0438\u0440\u0430\u043D\u0435 C#\\Homework\\OOP\\Pizza Service\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\pavka\\OneDrive\\Documents\\\u041F\u0440\u043E\u0433\u0440\u0430\u0432\u0438\u0440\u0430\u043D\u0435 C#\\Homework\\OOP\\Pizza Service\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAABgAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-12T16:01:29.232Z",
               "EditorCaption": ""

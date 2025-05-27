@@ -1,8 +1,10 @@
-﻿namespace Pizza_Service
+﻿using Pizza_Service.Models;
+
+namespace Pizza_Service.Servies
 {
-    public class PizzaMaker
+    internal class PizzaMaker
     {
-        public static Pizza CreatePizza(string type, int quantity, string size, string date)
+        internal static Pizza CreatePizza(string type, int quantity, string size, string date)
         {
             string lowerSize = size.ToLower();
             string[] validSizes = { "small", "medium", "large" };

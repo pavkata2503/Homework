@@ -1,10 +1,12 @@
-﻿namespace Pizza_Service
+﻿using Pizza_Service.Models;
+
+namespace Pizza_Service.Servies
 {
-    public class Register
+    internal class Register
     {
         private Dictionary<string, List<Pizza>> _dailySales = new Dictionary<string, List<Pizza>>();
 
-        public void AddOrder(Pizza pizza)
+        internal void AddOrder(Pizza pizza)
         {
             if (!_dailySales.ContainsKey(pizza.OrderDate))
             {
@@ -14,7 +16,7 @@
             _dailySales[pizza.OrderDate].Add(pizza);
         }
 
-        public void DailyReport()
+        internal void DailyReport()
         {
             Console.WriteLine();
             Console.WriteLine("Cash register reset:");

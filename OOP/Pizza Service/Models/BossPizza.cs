@@ -1,6 +1,6 @@
-﻿namespace Pizza_Service
+﻿namespace Pizza_Service.Models
 {
-    public class BossPizza : Pizza
+    internal class BossPizza : Pizza
     {
         private Dictionary<string, decimal> _prices = new()
         {

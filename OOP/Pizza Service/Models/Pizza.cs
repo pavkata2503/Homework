@@ -1,16 +1,22 @@
-﻿namespace Pizza_Service
+﻿using Pizza_Service.Interfaces;
+
+namespace Pizza_Service.Models
 {
-    public abstract class Pizza
+    internal abstract class Pizza : IPizza
     {
         public string Size { get; set; }
         public int Quantity { get; set; }
-        public string OrderDate { get; set; }
+        public DateTime OrderDate { get; set; }
+        protected Pizza()
+        {
+                OrderDate = DateTime.Now; // Set the order date to the current date and time by default
+        }
 
         public abstract string GetName();
         public abstract void Prepare();
         public abstract decimal CalculatePrice();
 
-        protected int GetAmount()
+        public int GetAmount()
         {
             string sizeLower = Size.ToLower();
 
@@ -31,5 +37,6 @@
                 return 0;
             }
         }
+
     }
 }

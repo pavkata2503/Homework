@@ -6,6 +6,7 @@ using Infrastructure.Data;
 using IMBD_Movies.CsvRead;
 using IMBD_Movies.Models;
 using Infrastructure.Seed;
+using Infrastructure.Repositories;
 
 namespace IMBD_Movies
 {
@@ -14,8 +15,25 @@ namespace IMBD_Movies
         static void Main(string[] args)
         {
             using var context = new ApplicationDbContext();
-            var seeder = new DataSeeder(context);
-            seeder.SeedDatabase();
+            //var seeder = new DataSeeder(context);
+            //seeder.SeedDatabase();
+            //Console.WriteLine("Database seeded successfully!");
+
+
+
+            MovieRepository movieRepository = new MovieRepository(context);
+            GenreRepository genreRepository = new GenreRepository(context);
+            var list=movieRepository.GetMoviesWithTitleContaining("Dog");
+            foreach (var item in list)
+            {
+                Console.WriteLine(item.Name);
+            }
+            var n = genreRepository.CalculateTotalGrossPerGenre();
+            //foreach (var pair in n.Take(5))
+            //{
+            //    Console.WriteLine($"{pair.Key} ---- {pair.Value}");
+            //}
+
         }
     }
 

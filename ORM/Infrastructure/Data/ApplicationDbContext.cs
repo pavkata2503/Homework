@@ -30,5 +30,7 @@ namespace Infrastructure.Data
 
             base.OnModelCreating(modelBuilder);
         }
+
+        
     }
 }

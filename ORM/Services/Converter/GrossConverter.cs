@@ -31,11 +31,11 @@ namespace IMBD_Movies.Converter
             if (text.EndsWith("M"))
             {
                 multiplier = 1_000_000;
-                text.Replace("М", "");
+                text=text.Replace("M", "");
             }
             if (double.TryParse(text, NumberStyles.Any, CultureInfo.InvariantCulture, out double value))
             {
-                return value * multiplier;
+                return Math.Round(value * multiplier);
             }
             else
             {

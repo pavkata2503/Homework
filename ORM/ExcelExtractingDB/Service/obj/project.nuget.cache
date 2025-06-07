@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "fwlofBUv1FI=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\Homework\\ORM\\ExcelExtractingDB\\Service\\Service.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pavka\\.nuget\\packages\\closedxml\\0.95.4\\closedxml.0.95.4.nupkg.sha512",
+    "C:\\Users\\pavka\\.nuget\\packages\\csvhelper\\27.2.1\\csvhelper.27.2.1.nupkg.sha512",
+    "C:\\Users\\pavka\\.nuget\\packages\\csvhelper.excel.core\\27.2.1\\csvhelper.excel.core.27.2.1.nupkg.sha512",
+    "C:\\Users\\pavka\\.nuget\\packages\\documentformat.openxml\\2.15.0\\documentformat.openxml.2.15.0.nupkg.sha512",
+    "C:\\Users\\pavka\\.nuget\\packages\\excelnumberformat\\1.0.10\\excelnumberformat.1.0.10.nupkg.sha512",
+    "C:\\Users\\pavka\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\pavka\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\pavka\\.nuget\\packages\\microsoft.win32.systemevents\\4.5.0\\microsoft.win32.systemevents.4.5.0.nupkg.sha512",
+    "C:\\Users\\pavka\\.nuget\\packages\\system.drawing.common\\4.5.0\\system.drawing.common.4.5.0.nupkg.sha512",
+    "C:\\Users\\pavka\\.nuget\\packages\\system.io.packaging\\4.7.0\\system.io.packaging.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
